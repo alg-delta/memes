@@ -1,0 +1,125 @@
+.wrapper {
+    background:url(img/1234.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: monospace;
+	text-align: center;
+}
+
+.menu li {
+     display: inline-block;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.menu a:hover {
+	color: green;
+}
+
+.menu a.active {
+	color: blue;
+}
+
+.header { 
+   display: flex;  
+   align-items: center;
+   gap: 150px;
+}
+
+/* Головна */
+
+.main-img21 {
+     float: right;
+}
+
+.main {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 100px
+}
+
+
+.main-title {
+    color: white;
+    font-size: 40px;
+    font-family: Verdana;
+}
+
+.bomba{
+    color: white;
+}
+
+.button {
+     width: 140px;
+     height: 60px;
+     font-family: Verdana;
+     font-size: 18px;
+     border-radius: 6px;
+     background-color: white;
+     border: 4px double purple;
+}
+
+.button a {
+    text-decoration: none;
+    color: purple;
+}
+
+.button:hover {
+    background-color: transparent;
+}
+
+/*  Товари  */
+.tovars {
+    text-align: center;
+     background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+
+}
+
+
+.tovars ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tovars-title {
+   color: pink;
+   font-family: Verdana;
+}
+
+
+.tovars-subtitle {
+  color: red;
+} 
+
+.robot:hover {
+    transform: rotate(1turn);
+}
+
+.robot {
+    transition: all 0.5s;
+}
+
+
+
+
+
+
+
